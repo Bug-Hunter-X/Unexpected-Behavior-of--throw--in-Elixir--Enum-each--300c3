@@ -1,0 +1,1 @@
+This example demonstrates a common misunderstanding when using `throw` within Elixir's `Enum.each` function.  While `throw` will exit the current function call, it will not immediately terminate the `Enum.each` loop. This can lead to unexpected side effects, especially when you're anticipating immediate termination.
